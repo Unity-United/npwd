@@ -1,12 +1,12 @@
 {
   "PhoneAsItem": {
     "enabled": true,
-    "exportResource": "my-core-resource",
-    "exportFunction": "myCheckerFunction"
+    "exportResource": "qb-npwd",
+    "exportFunction": "HasPhone"
   },
   "general": {
-    "useResourceIntegration": false,
-    "toggleKey": "f1",
+    "useResourceIntegration": true,
+    "toggleKey": "M",
     "toggleCommand": "phone",
     "defaultLanguage": "en"
   },
@@ -20,12 +20,32 @@
     "badWords": ["esx"]
   },
   "database": {
-    "useIdentifierPrefix": false,
-    "playerTable": "users",
+    "useIdentifierPrefix": true,
+    "playerTable": "players",
     "identifierColumn": "identifier",
     "identifierType": "license",
     "profileQueries": true,
     "phoneNumberColumn": "phone_number"
+  },
+  "images": {
+    "useWebhook": true
+  },
+  "imageSafety": {
+    "filterUnsafeImageUrls": true,
+    "embedUnsafeImages": false,
+    "embedUrl": "https://i.example.com/embed",
+    "safeImageUrls": [
+      "imgur.com",
+      "file.glass",
+      "dropbox.com",
+      "tenor.com",
+      "discord.com",
+      "discordapp.com",
+      "wikipedia.org",
+      "cdn.discordapp.com",
+      "cdn.discordapp.net",
+      "discordapp.net"
+    ]
   },
   "debug": {
     "level": "error",
@@ -34,7 +54,7 @@
   },
   "defaultContacts": [],
   "disabledApps": [],
-  "apps": ["pefcl"],
+  "apps": [],
   "voiceMessage": {
     "enabled": false,
     "authorizationHeader": "PE-Secret",
