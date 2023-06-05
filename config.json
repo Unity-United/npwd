@@ -1,6 +1,6 @@
 {
   "PhoneAsItem": {
-    "enabled": false,
+    "enabled": true,
     "exportResource": "my-core-resource",
     "exportFunction": "myCheckerFunction"
   },
