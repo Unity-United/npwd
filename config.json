@@ -47,6 +47,24 @@
       "discordapp.net"
     ]
   },
+  "twitter": {
+    "showNotifications": true,
+    "generateProfileNameFromUsers": true,
+    "allowEditableProfileName": true,
+    "allowDeleteTweets": true,
+    "allowReportTweets": true,
+    "allowRetweet": true,
+    "characterLimit": 160,
+    "newLineLimit": 10,
+    "enableAvatars": true,
+    "enableEmojis": true,
+    "enableImages": true,
+    "maxImages": 3
+  },
+  "match": {
+    "generateProfileNameFromUsers": true,
+    "allowEditableProfileName": true
+  },
   "debug": {
     "level": "error",
     "enabled": true,
