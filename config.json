@@ -22,7 +22,7 @@
   "database": {
     "useIdentifierPrefix": true,
     "playerTable": "players",
-    "identifierColumn": "identifier",
+    "identifierColumn": "citizenid",
     "identifierType": "license",
     "profileQueries": true,
     "phoneNumberColumn": "phone_number"
